@@ -24,12 +24,12 @@ body {
   font-family: "Raleway";
   font-size: 18px;
   font-weight: 800;
-  line-height: 116.667%;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  padding-right: 76px;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  margin-right: 76px;
 }
 
 .logo-accent {
@@ -42,6 +42,7 @@ body {
   list-style-type: none;
   padding: 24px 0;
   margin: 0;
+  margin-left: 76px;
 }
 
 .nav-link{
@@ -76,12 +77,10 @@ body {
 }
 
 .hero-image {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 48px;
   padding-bottom: 188px;
+  padding-top: 188px;
   background: var(--dark);
+  text-align: center;
 }
 
 .title {
@@ -91,8 +90,8 @@ body {
   font-weight: 700;
   line-height: 107.143%;
   letter-spacing: 1.12px;
-  padding-top: 188px;
-  margin: 0;
+  margin: 0 auto;
+  margin-bottom: 48px;
   width: 496px;
 }
 
@@ -149,9 +148,8 @@ body {
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
   margin: 0px;
+  margin-bottom: 72px;
 }
 
 .team-header {
@@ -175,6 +173,7 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   padding-top: 0px;
+  padding: 24px 0;
 }
 .spec-list {
   display: flex;
@@ -203,9 +202,15 @@ body {
   line-height: 120%;
   letter-spacing: 0.4px;
   padding: 0px;
-  margin-top: 32px;
   margin-bottom: 8px;
+  margin: 0%;
 }
+
+.work-name1{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .worker-description {
   text-align: center;
   font-size: 16px;
@@ -215,6 +220,7 @@ body {
 }
 .footer-bg {
   background: var(--dark);
+  padding: 100px 0;
 }
 .logo-accent-white {
   color: var(--light);
@@ -226,6 +232,20 @@ body {
   line-height: 150%;
   letter-spacing: 0.32px;
   width: 264px;
+  margin-top: 16px;
+  margin: 0%;
+}
+
+.footer-logo{
+  color: var(--dark);
+  text-decoration: none;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+
 }
 
 .filters {
@@ -295,6 +315,10 @@ body {
   padding: 120px 0px;
 }
 
+.work-section{
+  padding-top: 0%;
+}
+
 .top-line {
   display: flex;
   justify-content: space-between;
@@ -304,6 +328,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .header-line {
@@ -315,7 +340,6 @@ body {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 32px;
 }
 
 .projects-list > li {
@@ -337,5 +361,9 @@ body {
   display: block;
 }
 .team-list img {
+  display: block;
+}
+
+img{
   display: block;
 }
