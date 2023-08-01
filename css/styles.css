@@ -29,7 +29,6 @@ body {
   text-transform: uppercase;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
-  margin-right: 76px;
 }
 
 .logo-accent {
@@ -160,8 +159,7 @@ body {
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-bottom: 72px;
-  margin: 0px;
+  margin-bottom: 72px;
 }
 
 .header {
@@ -193,6 +191,7 @@ body {
 }
 .team-box {
   background: var(--light);
+  padding-top: 120px 0;
 }
 .worker-name {
   color: var(--dark);
@@ -202,8 +201,9 @@ body {
   line-height: 120%;
   letter-spacing: 0.4px;
   padding: 0px;
+  margin: 0;
   margin-bottom: 8px;
-  margin: 0%;
+  
 }
 
 .work-name1{
@@ -232,8 +232,8 @@ body {
   line-height: 150%;
   letter-spacing: 0.32px;
   width: 264px;
-  margin-top: 16px;
   margin: 0%;
+  margin-top: 16px;
 }
 
 .footer-logo{
@@ -315,13 +315,9 @@ body {
   padding: 120px 0px;
 }
 
-.work-section{
-  padding-top: 0%;
-}
 
 .top-line {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
